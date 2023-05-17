@@ -1,0 +1,28 @@
+local ver = 3.0
+
+local username = globals.get_username()
+
+
+local users = {
+"Nyahnto",
+"uraim",
+"Tap",
+"zyfmxq3130517039",
+"brokas",
+"Rint4rou",
+"shime",
+"Ruzule",
+"FaneRu",
+"PopoDaddy",
+"eugen",
+"FroxZite",
+"brokas",
+}
+ 
+
+for i = 0,#users do
+	if users[i] == username then
+		return ver
+	end
+end
+return -1
